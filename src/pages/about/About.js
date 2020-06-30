@@ -3,7 +3,7 @@ import { Box, Grid, List, ListItem, ListIcon } from "@chakra-ui/core";
 import JulyFamily from "../../assets/images/JulyFamily.jpg";
 
 function About() {
-  const [facilities, setFacilities] = useState([
+  const [facilities] = useState([
     "Sand Volleyball and Basketball Court",
     "Handicapped Bathroom on Site",
     "Lodge With Gathering Space",
@@ -21,7 +21,7 @@ function About() {
     "Wireless Internet",
     "Softened Water",
   ]);
-  const [operation, setOperation] = useState([
+  const [operation] = useState([
     "Season Runs From May 1st to October 1st",
 
     "Quiet Time - Before 8a.m. and after 11p.m.",

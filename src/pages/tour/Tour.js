@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Box, Flex, Icon } from "@chakra-ui/core";
-import Logo from "../../assets/images/YHlogo.jpg";
+import { Box } from "@chakra-ui/core";
 import Sunset from "../../assets/images/campgroundPinkSunset.jpg";
 import Sunset2 from "../../assets/images/campground2016sunset.jpg";
 import Sunset3 from "../../assets/images/campground2017sunset.jpg";
@@ -13,7 +12,7 @@ import memorial from "../../assets/images/memorial.jpg";
 import Gallery from "react-grid-gallery";
 
 function Tour() {
-  const [IMAGES, setImages] = useState([
+  const [IMAGES] = useState([
     {
       src: Sunset,
       thumbnail: Sunset,
@@ -113,6 +112,7 @@ function Tour() {
         <iframe
           width="560"
           height="315"
+          title="tour"
           src="https://www.youtube.com/embed/YTQw_lwkikU"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

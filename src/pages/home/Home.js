@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Box, Flex, Icon } from "@chakra-ui/core";
+import React from "react";
+import { Box, Flex } from "@chakra-ui/core";
 import Sunset from "../../assets/images/campgroundPinkSunset.jpg";
 
 function Home() {
@@ -28,6 +28,7 @@ function Home() {
               frameborder="0"
               style={{ border: 0, width: "60vw", height: "30vw" }}
               allowfullscreen=""
+              title="google map"
               aria-hidden="false"
               tabindex="0"
             ></iframe>
