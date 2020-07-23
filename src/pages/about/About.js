@@ -75,7 +75,7 @@ function About() {
         />
       </Box>
       <Grid
-        templateColumns="repeat(auto-fit, minmax(500px, 1fr))"
+        templateColumns="repeat(auto-fit, minmax(300px, 1fr))"
         gap={8}
         mb="40px"
         ml="50px"
