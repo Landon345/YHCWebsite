@@ -23,7 +23,7 @@ function App() {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/about" exact component={About} />
-            <Route path="/tour" exact component={Tour} />
+            <Route path="/tours" exact component={Tour} />
           </Switch>
           <Footer />
         </ThemeProvider>

@@ -35,8 +35,8 @@ function MyLinks(props) {
         </Box>
         <Box ml="20%"></Box>
         <NavbarLink href="/">Home</NavbarLink>
-        <NavbarLink href="/about">About</NavbarLink>
-        <NavbarLink href="/tour">Tour</NavbarLink>
+        <NavbarLink href="/#/about">About</NavbarLink>
+        <NavbarLink href="/#/tours">Tour</NavbarLink>
       </NavbarStyle>
     </div>
   );
