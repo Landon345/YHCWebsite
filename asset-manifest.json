@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/YHCWebsite/static/css/main.5f361e03.chunk.css",
+    "main.js": "/YHCWebsite/static/js/main.271c017c.chunk.js",
+    "main.js.map": "/YHCWebsite/static/js/main.271c017c.chunk.js.map",
+    "runtime-main.js": "/YHCWebsite/static/js/runtime-main.e1e7f8ec.js",
+    "runtime-main.js.map": "/YHCWebsite/static/js/runtime-main.e1e7f8ec.js.map",
+    "static/js/2.0d1d6405.chunk.js": "/YHCWebsite/static/js/2.0d1d6405.chunk.js",
+    "static/js/2.0d1d6405.chunk.js.map": "/YHCWebsite/static/js/2.0d1d6405.chunk.js.map",
+    "index.html": "/YHCWebsite/index.html",
+    "precache-manifest.4fb2a2e1f790724471253059aefd3745.js": "/YHCWebsite/precache-manifest.4fb2a2e1f790724471253059aefd3745.js",
+    "service-worker.js": "/YHCWebsite/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/YHCWebsite/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.0d1d6405.chunk.js.LICENSE.txt": "/YHCWebsite/static/js/2.0d1d6405.chunk.js.LICENSE.txt",
+    "static/media/JulyFamily.jpg": "/YHCWebsite/static/media/JulyFamily.b024ffc6.jpg",
+    "static/media/YHlogo.jpg": "/YHCWebsite/static/media/YHlogo.8927613f.jpg",
+    "static/media/campground2016sunset.jpg": "/YHCWebsite/static/media/campground2016sunset.ff1333d7.jpg",
+    "static/media/campground2017sunset.jpg": "/YHCWebsite/static/media/campground2017sunset.5e354951.jpg",
+    "static/media/campgroundPinkSunset.jpg": "/YHCWebsite/static/media/campgroundPinkSunset.706204c1.jpg",
+    "static/media/dronepictureaugust2018.jpg": "/YHCWebsite/static/media/dronepictureaugust2018.005b58bc.jpg",
+    "static/media/fish.jpg": "/YHCWebsite/static/media/fish.db049fab.jpg",
+    "static/media/greengrass.jpg": "/YHCWebsite/static/media/greengrass.4c2a1ce3.jpg",
+    "static/media/memorial.jpg": "/YHCWebsite/static/media/memorial.5cf21018.jpg",
+    "static/media/skyview.jpg": "/YHCWebsite/static/media/skyview.641d1b48.jpg",
+    "static/media/smallmouthbass.jpg": "/YHCWebsite/static/media/smallmouthbass.c1689ed3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1e7f8ec.js",
+    "static/js/2.0d1d6405.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.271c017c.chunk.js"
+  ]
+}
