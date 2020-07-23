@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  HashRouter,
+  BrowserRouter as Router,
+  Route,
+  Switch,
+} from "react-router-dom";
 import { ThemeProvider } from "emotion-theming";
 import Theme from "./Theme";
 import "./App.css";
@@ -12,7 +17,7 @@ import Footer from "./components/footer";
 function App() {
   return (
     <div>
-      <Router>
+      <HashRouter basename="/">
         <ThemeProvider theme={Theme}>
           <Navbar />
           <Switch>
@@ -22,7 +27,7 @@ function App() {
           </Switch>
           <Footer />
         </ThemeProvider>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
