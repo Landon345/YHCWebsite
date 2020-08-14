@@ -5,5 +5,8 @@
 img {
   max-width: 100%;
   height: auto;
-  object-fit: cover;
+}
+
+.family-img {
+  margin: 40px 0px;
 }

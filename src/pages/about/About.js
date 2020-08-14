@@ -79,9 +79,15 @@ function About() {
         youngest in the family. Thank you for checking out our website! More
         operational details are below.
       </Box>
-      <Box d="flex" justifyContent="center" py="40px">
-        <img className="family-img" src={JulyFamily} alt="Our Family" />
-      </Box>
+
+      <img
+        className="family-img"
+        src={JulyFamily}
+        alt="Our Family"
+        height="auto"
+        width="100%"
+      />
+
       <Grid
         templateColumns="repeat(auto-fit, minmax(300px, 1fr))"
         gap={8}
