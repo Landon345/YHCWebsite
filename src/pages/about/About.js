@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Box, Grid, List, ListItem, ListIcon } from "@chakra-ui/core";
+import { css } from "emotion";
 import JulyFamily from "../../assets/images/JulyFamily.jpg";
 
 function About() {
@@ -51,7 +52,16 @@ function About() {
     "Rates: $2800 includes tax",
   ]);
   return (
-    <Box minH="100vh" bg="background" mx="7%">
+    <Box
+      minH="100vh"
+      bg="background"
+      mx="1%"
+      className={css`
+        @media only screen and (min-width: 768px) {
+          margin: 0px 8%;
+        }
+      `}
+    >
       <Box
         fontSize="50px"
         color="headline"
@@ -70,28 +80,21 @@ function About() {
         operational details are below.
       </Box>
       <Box d="flex" justifyContent="center" py="40px">
-        <img
-          className="family-img"
-          src={JulyFamily}
-          alt="Our Family"
-          height="1600"
-          width="2200"
-          // style={{ height: "45vw", width: "90vw" }}
-        />
+        <img className="family-img" src={JulyFamily} alt="Our Family" />
       </Box>
       <Grid
         templateColumns="repeat(auto-fit, minmax(300px, 1fr))"
         gap={8}
         mb="40px"
-        ml="50px"
+        textAlign="center"
       >
         <Box>
           <Box fontSize="30px" mb="20px" fontWeight="bold" color="headline">
             Facilities
           </Box>
           <List spacing={3} textAlign="left">
-            {facilities.map((text) => (
-              <ListItem d="flex" flexDir="row" alignItems="center">
+            {facilities.map((text, i) => (
+              <ListItem d="flex" flexDir="row" alignItems="center" key={i}>
                 <ListIcon icon="sun" color="paragraph" />
                 <Box fontSize="18px" ml="10px">
                   {text}
@@ -105,8 +108,8 @@ function About() {
             Operation Details
           </Box>
           <List spacing={3} textAlign="Left">
-            {operation.map((text) => (
-              <ListItem d="flex" flexDir="row" alignItems="center">
+            {operation.map((text, i) => (
+              <ListItem d="flex" flexDir="row" alignItems="center" key={i}>
                 <ListIcon icon="sun" color="paragraph" />
                 <Box fontSize="18px" ml="10px">
                   {text}
