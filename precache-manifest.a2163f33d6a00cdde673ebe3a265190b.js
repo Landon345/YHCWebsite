@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "42033fe8662baa213447c56d75a6013a",
+    "revision": "d60f64bc4909bd805e1b8e41d93f2b0b",
     "url": "/YHCWebsite/index.html"
   },
   {
-    "revision": "1652edbad5a3cfc7ed3b",
-    "url": "/YHCWebsite/static/css/main.c2a40768.chunk.css"
+    "revision": "8ef03fefd2b80fa02083",
+    "url": "/YHCWebsite/static/css/main.ab32ff61.chunk.css"
   },
   {
     "revision": "1043fdd16bdb8847f416",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/YHCWebsite/static/js/2.e6291a51.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1652edbad5a3cfc7ed3b",
-    "url": "/YHCWebsite/static/js/main.6f2f6d86.chunk.js"
+    "revision": "8ef03fefd2b80fa02083",
+    "url": "/YHCWebsite/static/js/main.c0c0b4f5.chunk.js"
   },
   {
     "revision": "535aadd318c182cf250e",
