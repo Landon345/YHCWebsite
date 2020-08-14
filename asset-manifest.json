@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/YHCWebsite/static/css/main.ab32ff61.chunk.css",
+    "main.css": "/YHCWebsite/static/css/main.3c687752.chunk.css",
     "main.js": "/YHCWebsite/static/js/main.f5183760.chunk.js",
     "main.js.map": "/YHCWebsite/static/js/main.f5183760.chunk.js.map",
     "runtime-main.js": "/YHCWebsite/static/js/runtime-main.e1e7f8ec.js",
@@ -8,9 +8,9 @@
     "static/js/2.3f3ac448.chunk.js": "/YHCWebsite/static/js/2.3f3ac448.chunk.js",
     "static/js/2.3f3ac448.chunk.js.map": "/YHCWebsite/static/js/2.3f3ac448.chunk.js.map",
     "index.html": "/YHCWebsite/index.html",
-    "precache-manifest.4a64e1b16761cd52b487839c69666fb8.js": "/YHCWebsite/precache-manifest.4a64e1b16761cd52b487839c69666fb8.js",
+    "precache-manifest.8e4715bdabc1e2b3d215d120e88bd974.js": "/YHCWebsite/precache-manifest.8e4715bdabc1e2b3d215d120e88bd974.js",
     "service-worker.js": "/YHCWebsite/service-worker.js",
-    "static/css/main.ab32ff61.chunk.css.map": "/YHCWebsite/static/css/main.ab32ff61.chunk.css.map",
+    "static/css/main.3c687752.chunk.css.map": "/YHCWebsite/static/css/main.3c687752.chunk.css.map",
     "static/js/2.3f3ac448.chunk.js.LICENSE.txt": "/YHCWebsite/static/js/2.3f3ac448.chunk.js.LICENSE.txt",
     "static/media/JulyFamily.jpg": "/YHCWebsite/static/media/JulyFamily.b024ffc6.jpg",
     "static/media/YHlogo.jpg": "/YHCWebsite/static/media/YHlogo.8927613f.jpg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.e1e7f8ec.js",
     "static/js/2.3f3ac448.chunk.js",
-    "static/css/main.ab32ff61.chunk.css",
+    "static/css/main.3c687752.chunk.css",
     "static/js/main.f5183760.chunk.js"
   ]
 }
