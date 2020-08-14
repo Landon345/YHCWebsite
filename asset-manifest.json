@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/YHCWebsite/static/css/main.5f361e03.chunk.css",
-    "main.js": "/YHCWebsite/static/js/main.2687c801.chunk.js",
-    "main.js.map": "/YHCWebsite/static/js/main.2687c801.chunk.js.map",
+    "main.css": "/YHCWebsite/static/css/main.c2a40768.chunk.css",
+    "main.js": "/YHCWebsite/static/js/main.6f2f6d86.chunk.js",
+    "main.js.map": "/YHCWebsite/static/js/main.6f2f6d86.chunk.js.map",
     "runtime-main.js": "/YHCWebsite/static/js/runtime-main.e1e7f8ec.js",
     "runtime-main.js.map": "/YHCWebsite/static/js/runtime-main.e1e7f8ec.js.map",
     "static/js/2.e6291a51.chunk.js": "/YHCWebsite/static/js/2.e6291a51.chunk.js",
     "static/js/2.e6291a51.chunk.js.map": "/YHCWebsite/static/js/2.e6291a51.chunk.js.map",
     "index.html": "/YHCWebsite/index.html",
-    "precache-manifest.3c8d4242dcb64a0a0edaa96d820c09ae.js": "/YHCWebsite/precache-manifest.3c8d4242dcb64a0a0edaa96d820c09ae.js",
+    "precache-manifest.c6b0b4c01708adac66ed90395421ddc4.js": "/YHCWebsite/precache-manifest.c6b0b4c01708adac66ed90395421ddc4.js",
     "service-worker.js": "/YHCWebsite/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/YHCWebsite/static/css/main.5f361e03.chunk.css.map",
+    "static/css/main.c2a40768.chunk.css.map": "/YHCWebsite/static/css/main.c2a40768.chunk.css.map",
     "static/js/2.e6291a51.chunk.js.LICENSE.txt": "/YHCWebsite/static/js/2.e6291a51.chunk.js.LICENSE.txt",
     "static/media/JulyFamily.jpg": "/YHCWebsite/static/media/JulyFamily.b024ffc6.jpg",
     "static/media/YHlogo.jpg": "/YHCWebsite/static/media/YHlogo.8927613f.jpg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.e1e7f8ec.js",
     "static/js/2.e6291a51.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.2687c801.chunk.js"
+    "static/css/main.c2a40768.chunk.css",
+    "static/js/main.6f2f6d86.chunk.js"
   ]
 }
