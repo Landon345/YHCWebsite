@@ -14,13 +14,12 @@ function Home() {
       </Box>
       <Flex direction="row" justifyContent="space-evenly" mx="5%" my="20px">
         <Box textAlign="center">
-          <Box color="paragraph" py="50px">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste non
-            ducimus beatae, commodi pariatur nihil amet distinctio omnis
-            provident quam veniam porro vitae sed ratione minima soluta
-            explicabo! Eaque voluptatum quibusdam adipisci minus dolore vitae
-            doloremque est a fugit, voluptas, eligendi non suscipit asperiores,
-            quas laborum perspiciatis autem culpa voluptatem.
+          <Box color="paragraph" py="50px" textAlign="left" fontSize="20px">
+            We are a family owned and operated campground based in Richmond, MN
+            on the chain of lakes. Enjoy beautiful sunsets, water sports, and
+            great fishing at our fine establishment. We are a mid size,
+            all-seasonal campground with 117 camping sites.{" "}
+            <a href="/YHCWebsite/#/about">Learn more -></a>
           </Box>
           <Box m="auto">
             <iframe

@@ -34,9 +34,11 @@ function MyLinks(props) {
           <Box ml="20px">Your Haven Campground</Box>
         </Box>
         <Box ml="20%"></Box>
-        <NavbarLink href="/YHCWebsite/">Home</NavbarLink>
-        <NavbarLink href="/YHCWebsite/#/about">About</NavbarLink>
-        <NavbarLink href="/YHCWebsite/#/tours">Tour</NavbarLink>
+        <Box>
+          <NavbarLink href="/YHCWebsite/">Home</NavbarLink>
+          <NavbarLink href="/YHCWebsite/#/about">About</NavbarLink>
+          <NavbarLink href="/YHCWebsite/#/tours">Tour</NavbarLink>
+        </Box>
       </NavbarStyle>
     </div>
   );

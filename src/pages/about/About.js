@@ -62,15 +62,20 @@ function About() {
         About Us
       </Box>
       <Box color="paragraph" fontSize="20px">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-        aliquid consequuntur molestiae sint atque aspernatur recusandae
-        reiciendis ad eligendi iusto ut laboriosam nam veniam praesentium
-        magnam, quisquam harum dolore. Quisquam.
+        We are a family of five. Chad and Trude Schlangen, the owners, are the
+        parents of three amazing kids. Dominic and Landon are in their 20s and
+        studying in their respective fields. Landon is studying Computer
+        Science, and Dominic is studying Industrial Engineering. Brooke is the
+        youngest in the family. Thank you for checking out our website! More
+        operational details are below.
       </Box>
       <Box d="flex" justifyContent="center" py="40px">
         <img
+          className="family-img"
           src={JulyFamily}
           alt="Our Family"
+          height="1600"
+          width="2200"
           // style={{ height: "45vw", width: "90vw" }}
         />
       </Box>
