@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Fade from "react-reveal/Fade";
 import { Box } from "@chakra-ui/core";
 import Sunset from "../../assets/images/campgroundPinkSunset.jpg";
 import Sunset2 from "../../assets/images/campground2016sunset.jpg";
@@ -89,7 +90,7 @@ function Tour() {
   ]);
   return (
     <Box bg="background" minH="100vh">
-      <Box bg="stroke">
+      <Fade right big>
         <Box
           display="block"
           minH="1px"
@@ -107,7 +108,7 @@ function Tour() {
             showLightboxThumbnails={true}
           />
         </Box>
-      </Box>
+      </Fade>
       <Box display="flex" alignItems="center" justifyContent="center" py="50px">
         <iframe
           width="560"

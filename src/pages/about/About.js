@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Box, Grid, List, ListItem, ListIcon } from "@chakra-ui/core";
 import { css } from "emotion";
+import Fade from "react-reveal/Fade";
 import JulyFamily from "../../assets/images/JulyFamily.jpg";
 
 function About() {
@@ -62,31 +63,36 @@ function About() {
         }
       `}
     >
-      <Box
-        fontSize="50px"
-        color="headline"
-        textAlign="center"
-        fontWeight="bold"
-        py="40px"
-      >
-        About Us
-      </Box>
-      <Box color="paragraph" fontSize="20px">
-        We are a family of five. Chad and Trude Schlangen, the owners, are the
-        parents of three amazing kids. Dominic and Landon are in their 20s and
-        studying in their respective fields. Landon is studying Computer
-        Science, and Dominic is studying Industrial Engineering. Brooke is the
-        youngest in the family. Thank you for checking out our website! More
-        operational details are below.
-      </Box>
-
-      <img
-        className="family-img"
-        src={JulyFamily}
-        alt="Our Family"
-        height="auto"
-        width="100%"
-      />
+      <Fade left big>
+        <Box
+          fontSize="50px"
+          color="headline"
+          textAlign="center"
+          fontWeight="bold"
+          py="40px"
+        >
+          About Us
+        </Box>
+      </Fade>
+      <Fade right big>
+        <Box color="paragraph" fontSize="20px">
+          We are a family of five. Chad and Trude Schlangen, the owners, are the
+          parents of three amazing kids. Dominic and Landon are in their 20s and
+          studying in their respective fields. Landon is studying Computer
+          Science, and Dominic is studying Industrial Engineering. Brooke is the
+          youngest in the family. Thank you for checking out our website! More
+          operational details are below.
+        </Box>
+      </Fade>
+      <Fade big bottom>
+        <img
+          className="family-img"
+          src={JulyFamily}
+          alt="Our Family"
+          height="auto"
+          width="100%"
+        />
+      </Fade>
 
       <Grid
         templateColumns="repeat(auto-fit, minmax(300px, 1fr))"

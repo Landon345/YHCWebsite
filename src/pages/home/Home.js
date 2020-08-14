@@ -1,17 +1,18 @@
 import React from "react";
 import { Box, Flex } from "@chakra-ui/core";
+import Fade from "react-reveal/Fade";
 import Sunset from "../../assets/images/campgroundPinkSunset.jpg";
 
 function Home() {
   return (
     <Box bg="background" minH="100vh">
-      <Box>
+      <Fade left big>
         <img
           src={Sunset}
           alt="Sunset"
           style={{ height: "45vw", width: "100vw" }}
         />
-      </Box>
+      </Fade>
       <Flex direction="row" justifyContent="space-evenly" mx="5%" my="20px">
         <Box textAlign="center">
           <Box color="paragraph" py="50px" textAlign="left" fontSize="20px">
